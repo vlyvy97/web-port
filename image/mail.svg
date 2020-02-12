@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.018" height="16.815" viewBox="0 0 21.018 16.815">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}
+        </style>
+    </defs>
+    <path id="Icon_metro-mail" d="M24.058 7.712H7.243a2.092 2.092 0 0 0-2.091 2.1l-.011 12.613a2.1 2.1 0 0 0 2.1 2.1h16.817a2.1 2.1 0 0 0 2.1-2.1V9.814a2.1 2.1 0 0 0-2.1-2.1zm0 4.2l-8.407 5.258-8.408-5.254v-2.1l8.407 5.255 8.407-5.255z" class="cls-1" data-name="Icon metro-mail" transform="translate(-5.141 -7.712)"/>
+</svg>
