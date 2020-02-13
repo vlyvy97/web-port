@@ -12,6 +12,7 @@ body{
     font-size: 20px;
     line-height: 2;
     color: #707070;
+    overflow: hidden;
 }
 
 .container{
@@ -85,7 +86,7 @@ body{
 }
 
 .intro-p{
-    font-family: 'Lato',sans-serif;
+    font-family: 'Josefin Sans',sans-serif;
     font-weight: 300;
     text-align: center;
     line-height: 1.8rem;
@@ -145,7 +146,7 @@ button{
 }
 
 .btn-work-text{
-    background-color: #313131;
+    background-color: transparent;
     color: white;
     padding-left: 3%;
 }
@@ -153,7 +154,7 @@ button{
 .mail,
 .behance{
     width: 2.2%;
-    margin-right: 4%;
+    margin-right: 2.5%;
 }
 
 .tab1,
@@ -162,4 +163,155 @@ button{
     z-index: 100;
 }
 
+/* -------------CDE------------- */
 
+#left-cde{
+    background-image: url(../image/left-cde.png)
+}
+
+#right-cde{
+    background-color: #104e8f;
+}
+
+#intro-cde{
+    padding-top: 10%;
+}
+
+#intro-box-cde{
+    box-shadow: -11px 31px 50px 0 rgba(43, 81, 235, 0.18);
+}
+
+/* -------------CDEnded------------- */
+
+/* -------------Vina------------- */
+
+#left-vina{
+    background-image: url(../image/left-vina.png)
+}
+
+#intro-vina{
+    padding-top: 10%;
+}
+
+#intro-box-vina{
+    box-shadow: -11px 31px 50px 0 rgba(0, 0, 0, 0.16);
+}
+
+
+/* -------------Vinaren't------------- */
+
+/* -------------bid------------- */
+
+#left-bid{
+    background-image: url(../image/left-bid.png)
+}
+
+#right-bid{
+    background-color: #497a67;
+}
+
+#intro-bid{
+    padding-top: 11%;
+}
+
+#intro-box-bid{
+    box-shadow: -11px 31px 50px 0 rgba(32, 126, 60, 0.23);
+}
+
+.deco{
+    height: 91%;
+    width: 85%;
+    position: absolute;
+    z-index: 101;
+    left: 9.5%;
+    top: 9%;
+}
+
+.deco-branch{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: -3%;
+    margin-right: 3%;
+    position: fixed;
+    width: 13%;
+    height: auto;
+}
+
+/* -------------bad------------- */
+
+/* -------------Tab------------- */
+
+    .tabs{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 26%;
+        padding-right: 4%;
+    }
+
+    .btn-tab{
+        display: block;
+        background: transparent;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 300;
+        opacity: 0.5;
+        width: 170%;
+        line-height: 7.5vh;
+        text-align: right;
+        
+    }
+
+    hr { 
+        width:15%; 
+        height: 3px; 
+        background: #fff ;
+        float: right;
+        margin-left: 15%;
+        margin-right: -2%;
+        opacity: 0.5;
+        margin: 3.25vh;
+    }
+
+    /* .btn-tab:hover{
+        opacity: 0;
+    } */
+
+    .active, .tab1:hover {
+        background-image: url(../image/fur-logo.png);
+        background-repeat: no-repeat;
+        background-position: 30% 40%;
+        color: transparent;
+        opacity: 1;        
+    }
+
+    .active, .tab2:hover {
+        background-image: url(../image/fur-logo.png);
+        background-repeat: no-repeat;
+        background-position: 30% 40%;
+        color: transparent;
+        opacity: 1;        
+    }
+
+    .active, .tab3:hover {
+        background-image: url(../image/fur-logo.png);
+        background-repeat: no-repeat;
+        background-position: 30% 40%;
+        color: transparent;
+        opacity: 1;        
+    }
+
+    .active, .tab4:hover {
+        background-image: url(../image/fur-logo.png);
+        background-repeat: no-repeat;
+        background-position: 30% 40%;
+        color: transparent;
+        opacity: 1;        
+    }
+
+    .btn-tab:hover hr{
+        opacity: 1;
+        width: 20%;
+    }
+/* -------------STAB------------- */
