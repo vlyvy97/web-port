@@ -15,6 +15,10 @@ body{
     overflow: hidden;
 }
 
+p::selection{
+    background: #ffb7b7;
+}
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -95,6 +99,7 @@ body{
     padding-top: 1%;
     font-size: 1.05rem;
     color: #707070;
+    /* z-index: 100; */
 }
 
 .project-intro{
@@ -247,7 +252,7 @@ button{
         top: 0;
         right: 0;
         margin-top: 26%;
-        padding-right: 4%;
+        padding-right: 9.5%;
     }
 
     .btn-tab{
@@ -257,7 +262,7 @@ button{
         font-size: 1.5rem;
         font-weight: 300;
         opacity: 0.5;
-        width: 170%;
+        width: 250%;
         line-height: 7.5vh;
         text-align: right;
         
@@ -281,37 +286,52 @@ button{
     .active, .tab1:hover {
         background-image: url(../image/fur-logo.png);
         background-repeat: no-repeat;
-        background-position: 30% 40%;
+        background-position: 50% 40%;
         color: transparent;
         opacity: 1;        
     }
 
     .active, .tab2:hover {
-        background-image: url(../image/fur-logo.png);
+        background-image: url(../image/cde-logo.png);
         background-repeat: no-repeat;
-        background-position: 30% 40%;
+        background-position: 50% 40%;
         color: transparent;
         opacity: 1;        
     }
 
     .active, .tab3:hover {
-        background-image: url(../image/fur-logo.png);
+        background-image: url(../image/Vina-logo.png);
         background-repeat: no-repeat;
-        background-position: 30% 40%;
+        background-size: 50%;
+        background-position:27% 30%;
         color: transparent;
         opacity: 1;        
     }
 
     .active, .tab4:hover {
-        background-image: url(../image/fur-logo.png);
+        background-image: url(../image/bid-logo.png);
         background-repeat: no-repeat;
-        background-position: 30% 40%;
+        background-size: 22%;
+        background-position: 52% 40%;
         color: transparent;
         opacity: 1;        
     }
 
     .btn-tab:hover hr{
-        opacity: 1;
+        animation: line-change 0.2s;
         width: 20%;
+        opacity: 1;
     }
-/* -------------STAB------------- */
+
+    @keyframes line-change{
+        0%{
+            width: 15%;
+            opacity: .5;
+        }
+
+        100%{
+            width: 20%;
+            opacity: 1;
+        }
+    }
+/* -------------STAPH------------- */
