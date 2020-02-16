@@ -2,36 +2,28 @@
 <html lang="en">
 
 <head>
+    
     <meta name="author" content="Vlivi">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/tab.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Federants&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Katibeh&display=swap" rel="stylesheet" />
-    <!-- <script>
-        function openTab(projectName) {
-            var i;
-            var x = document.getElementsByClassName("tab");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            document.getElementById(projectName).style.display = "block";
-        }
-    </script> -->
     <title>Vlivi | UI Designer</title>
     
+    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-32x32.png">  
+    <script src="js/tab.js"></script>
+    <script src="js/type.js>"></script>
+
 </head>
 
 <body>
-    <div class="tabs">
-        <button class="tab1" onclick="openTab('London')">tab1</button>
-        <button class="tab2" onclick="openTab('Paris')">Tab2</button>
-        <button class="tab3" onclick="openTab('Tokyo')">Tab3</button
-    </div>
+    
 
-    <div class="container">
+    <div id="Furniture" class="container tab">
 
         <div class="backgrounds">
             <div class="left">
@@ -42,18 +34,17 @@
             </div>
         </div>
 
-        <div id="London" class="tab">
-            <div class="cards">
+             <div class="cards">
 
                 <div class="intro-box">
                     <h1 class="intro">Introduction</h1>
-                    <p class="intro-p">
+                    <p id="typewriter" class="intro-p">
                         This is a study project that I made so I can practice my After Effect skill. While I was on it,
                         I tried to included some 3D elements because I had always 
                     </p>
                 </div>
 
-                <img class="project-intro" src="image/project-view.png" alt="project-view">
+                <img class="project-intro" src="image/fur.png" alt="project-view">
 
             </div>
 
@@ -76,9 +67,240 @@
 
                 </div>
             </div>
+
+        </div>
+       
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- ----------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+        <div id="cde" class="container tab" style="display:none">
+
+            <div class="backgrounds">
+                <div id="left-cde" class="left">
+                </div>
+    
+                <div id="right-cde" class="right">
+                    <img class="logo" src="image/vl;v;.png" alt="logo">
+                </div>
+            </div>
+    
+                 <div class="cards">
+    
+                    <div id="intro-box-cde" class="intro-box">
+                        <h1 id="intro-cde" class="intro">Introduction</h1>
+                        <p class="intro-p">
+                            This is one of my first project. An application for Unilever employers and employees to manage their task. The employers can assign task and the employees can 
+                            report and get review on the tasks. The original app might look a bit different because I had changed a few pixel before showing it off to the world.
+                        </p>
+                    </div>
+    
+                    <img class="project-intro" src="image/cde.png" alt="project-view">
+    
+                </div>
+    
+                <div class="buttons">
+    
+                    <div class="btn-view">
+                        <button class=btn-view-text>View detail</button>
+    
+                        <img class="icon arrow" src="image/arrow.svg">
+    
+                    </div>
+    
+    
+    
+                    <div class="box">
+                        <button class=btn-work-text>Available for work</button>
+    
+                        <img class="icon behance" src="image/behance.svg" atl="behance button">
+                        <img class="icon mail" src="image/mail.svg" alt="contact button">
+    
+                    </div>
+                </div>
+    
+            </div>    
+    
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+
+            <div id="vina" class="container tab" style="display:none">
+
+                <div class="backgrounds">
+                    <div id="left-vina" class="left">
+                    </div>
+
+                    <div id="right-vina" class="right">
+                        <img class="logo" src="image/vl;v;.png" alt="logo">
+                    </div>
+                </div>
+
+                    <div class="cards">
+
+                        <div id="intro-box-vina" class="intro-box">
+                            <h1 id="intro-vina" class="intro">Introduction</h1>
+                            <p class="intro-p">
+                                This is a website aim to wildlife photographers and others. 
+                                The photographers will upload their photos of some species, 
+                                and we will do our magic and link those photos of the same 
+                                species together so viewers can see 200 photos of that purple sea cucumber that they wish to see. 
+                            </p>
+                        </div>
+
+                        <img class="project-intro" src="image/vina.png" alt="project-view">
+
+                    </div>
+
+                    <div class="buttons">
+
+                        <div class="btn-view">
+                            <button class=btn-view-text>View detail</button>
+
+                            <img class="icon arrow" src="image/arrow.svg">
+
+                        </div>
+
+
+
+                        <div class="box">
+                            <button class=btn-work-text>Available for work</button>
+
+                            <img class="icon behance" src="image/behance.svg" atl="behance button">
+                            <img class="icon mail" src="image/mail.svg" alt="contact button">
+
+                        </div>
+                    </div>
+
+                </div>    
+            
+    
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+            
+            <div id="bid" class="container tab" style="display:none">
+
+                <div class="backgrounds">
+                    <div id="left-bid" class="left">
+                    </div>
+
+                    <div id="right-bid" class="right">
+                        <img class="logo" src="image/vl;v;.png" alt="logo">
+                    </div>
+                </div>
+
+                    <div class="cards">
+
+                        <div id="intro-box-bid" class="intro-box">
+                            <h1 id="intro-bid" class="intro">Introduction</h1>
+                            <p class="intro-p">
+                                Ever wonder "How are the kids doing with that stranger we hire on the internet that we know nothing 
+                                about because we were in such a rush and couldn't quickly find a babysitter and all of our friends are busy?". 
+                                This app connect you to all the reliable babysitters in the neighborhood! 
+                            </p>
+                        </div>
+
+                        <img class="project-intro" src="image/bid.png" alt="project-view">
+
+                    </div>
+
+                    <div class="buttons">
+
+                        <div class="btn-view">
+                            <button class=btn-view-text>View detail</button>
+
+                            <img class="icon arrow" src="image/arrow.svg">
+
+                        </div>
+
+
+
+                        <div class="box">
+                            <button class=btn-work-text>Available for work</button>
+
+                            <img class="icon behance" src="image/behance.svg" atl="behance button">
+                            <img class="icon mail" src="image/mail.svg" alt="contact button">
+
+                        </div>
+                    </div>
+                    
+                    <div class="deco">
+                        
+                        <img class="deco-leave" src="image/decoleave.png" alt="leaves"/>
+                        <img class="deco-branch" src="image/decobranch.png" alt="branches"/>
+
+                    </div>
+
+                </div>   
+     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    
+    
+    <div id='cbt' class="tabs">
+
+        <div class="btc tab1-container">
+             <button class="tab1 btn-tab" onclick="openTab('Furniture')">frnitre <hr/></button> 
+             <!-- <img class="fur-logo" src="image/fur-logo.png" alt="frnitre logo" > -->
+        </div>
+        
+        <div class="btc tab2-container">
+            <button class="tab2 btn-tab" onclick="openTab('cde')">cde <hr/> </button> 
+        </div>
+        
+        <div class="btc tab3-container">
+            <button class="tab3 btn-tab" onclick="openTab('vina')">Vinanimal <hr/> </button> 
         </div>
 
-        <div id="Tokyo" class="tab" style="display:none">
+        <div class="btc tab4-container">
+            <button class="tab4 btn-tab" onclick="openTab('bid')">bid <hr/></button>
+        </div>
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- <div id="Tokyo" class="tab" style="display:none">
             <div class="cards">
 
                 <div class="intro-box">
@@ -150,9 +372,9 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
-    </div>
+    
 
 
 
