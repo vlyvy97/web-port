@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+
+html{
+    font-size: 10px;
+}
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Katibeh', cursive;
 
     font-weight: 200;
-    font-size: 20px;
+    /* font-size: 16px; */
     line-height: 2;
     color: #707070;
     overflow: hidden;
@@ -67,8 +72,8 @@ p::selection{
 
 .logo{
     float: right;
-    padding-right: 85px;
-    padding-top: 55px;
+    padding-right: 8.5rem;
+    padding-top: 5.5rem;
 }
 
 
@@ -84,7 +89,7 @@ p::selection{
 
 .intro{
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 4.8rem;
     text-align: center;
     padding-top: 15%;
 }
@@ -93,11 +98,11 @@ p::selection{
     font-family: 'Josefin Sans',sans-serif;
     font-weight: 300;
     text-align: center;
-    line-height: 1.8rem;
+    line-height: 2.5rem;
     padding-left: 16%;
     padding-right: 16%;
     padding-top: 1%;
-    font-size: 1.05rem;
+    font-size: 1.8rem;
     color: #707070;
     /* z-index: 100; */
 }
@@ -112,13 +117,13 @@ p::selection{
 
 button{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
     border: none;
 }
 
 .btn-view{
     background-color: #fff;
-    height: 50px;
+    height: 5rem;
     width: 26.5%;
     display: inline-block;
     
@@ -144,7 +149,7 @@ button{
 .box{
     border: white 3px solid;
     border-left: none;
-    height: 50px;
+    height: 5rem;
     margin-left: -3px;
     width: 73.5%;
     float: right;
@@ -153,7 +158,8 @@ button{
 .btn-work-text{
     background-color: transparent;
     color: white;
-    padding-left: 3%;
+    padding: 1.5rem;
+    padding-left: 3rem;
 }
 
 .mail,
@@ -162,11 +168,11 @@ button{
     margin-right: 2.5%;
 }
 
-.tab1,
+/* .tab1,
 .tab2,
 .tab3{
     z-index: 100;
-}
+} */
 
 /* -------------CDE------------- */
 
@@ -199,7 +205,7 @@ button{
 }
 
 #intro-box-vina{
-    box-shadow: -11px 31px 50px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: -1.1rem 3.1rem 5rem 0 rgba(0, 0, 0, 0.16);
 }
 
 
@@ -220,7 +226,7 @@ button{
 }
 
 #intro-box-bid{
-    box-shadow: -11px 31px 50px 0 rgba(32, 126, 60, 0.23);
+    box-shadow: -1.1rem 3.1rem 5rem 0 rgba(32, 126, 60, 0.23);
 }
 
 .deco{
@@ -259,7 +265,7 @@ button{
         display: block;
         background: transparent;
         color: white;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 300;
         opacity: 0.5;
         width: 250%;
@@ -270,7 +276,7 @@ button{
 
     hr { 
         width:15%; 
-        height: 3px; 
+        height: 0.3rem; 
         background: #fff ;
         float: right;
         margin-left: 15%;

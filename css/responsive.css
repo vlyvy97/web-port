@@ -1,0 +1,568 @@
+@media (max-width: 1400px){
+
+    html{
+        font-size: 8.5px;
+    }
+
+    .cards{
+        width: 70%;
+    }
+    
+    .intro-box{
+        height: 65%;
+    }
+
+    .intro{
+        padding-top: 12%;
+        font-size: 4rem;
+    }
+
+    #intro-cde{
+        padding-top: 5%;
+    }
+
+    #intro-bid{
+        padding-top: 8%;
+    }
+
+    .project-intro{
+        width: 65%;
+    }
+
+    .intro-p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .buttons{
+        width: 70%;
+        padding-top: 42%;
+    }
+
+    .btn-view{
+        width: 25.7%;
+    }
+
+    .box{
+        width: 74.3%;
+    }
+
+    .tabs{
+        padding-right: 12%;
+        margin-top: 25%;
+    }
+
+    .active, .tab3:hover {
+        background-size: 40%;
+        background-position: 45% 30%;      
+    }
+
+    .active, .tab1:hover{
+        background-size: 25%;
+        background-position: 55% 40%;
+    }
+
+    .active, .tab2:hover{
+        background-size: 23%;
+        background-position: 57% 40%;
+    }
+
+    .active, .tab4:hover{
+        background-size: 18%;
+        background-position: 60% 40%;
+    }
+
+    .deco{
+        left: 9%;
+        top: 10%;
+    }
+    
+    .deco-branch{
+        margin-bottom: -3%;
+        margin-right: 3%;
+        width: 11%;
+        height: auto;
+    }
+    .deco-leave{
+        width: 25%;
+    }
+
+}
+
+
+@media (max-width: 1300px){
+
+    .buttons{
+        width: 70%;
+        padding-top: 46%;
+    }
+
+    .deco-branch{
+        margin-bottom: -1%;
+        margin-right: 5%;
+        width: 11%;
+    }
+
+}
+
+
+@media (max-width: 1050px){
+
+    html{
+        background-color: black;
+        font-size: 10px;
+    }
+
+    .left{
+        width: 40%;
+    }
+
+    .right{
+        width: 60%;
+    }
+
+    .cards{
+        margin-top: 23%;
+        height: 62%;
+    }
+
+    .intro-box{
+        top:0;
+        height: 38%;
+        width: 80%;
+    }
+
+    .project-intro{
+        left: 0;
+        width: 88%;
+    }
+
+    .intro{
+        padding-top: 6%;
+        font-size: 4rem;
+    }
+
+    #intro-cde{
+        padding-top: 5%;
+    }
+
+    #intro-p-cde{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #intro-vina{
+        padding-top: 6%;
+    }
+
+    #intro-bid{
+        padding-top: 5%;
+    }
+
+    .buttons{
+        width: 62%;
+        padding-top: 115%;
+    }
+
+    .btn-view{
+        width:45.2%;
+    }
+
+    .box{
+        width: 54.8%;
+    }
+
+    .mail,
+    .behance{
+    width: 5.2%;
+    margin-right: 5.5%; 
+    }
+
+    .tabs{
+        padding-right: 22%;
+        margin-top: 22%;
+    }
+
+    .deco{
+        left: 12%;
+        top: 8%;
+    }
+
+    .deco-branch{
+        margin-bottom: 5%;
+        margin-right: 9%;
+        width: 18%;
+        height: auto;
+    }
+    .deco-leave{
+        width: 35%;
+    }
+}
+
+
+
+@media (max-width: 800px){
+
+    html{
+        background-color: black;
+        overflow: hidden;
+    }
+
+    .left{
+        width: 40%;
+    }
+
+    .right{
+        width: 60%;
+    }
+
+    .cards{
+        margin-top: 23%;
+        height: 62%;
+    }
+
+    .intro-box{
+        top:0;
+        height: 38%;
+        width: 80%;
+    }
+
+    .project-intro{
+        left: 0;
+        width: 88%;
+    }
+
+    .intro{
+        padding-top: 3%;
+        font-size: 4rem;
+    }
+
+    #intro-cde{
+        padding-top: 1%;
+    }
+
+    #intro-p-cde{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    #intro-vina{
+        padding-top: 2%;
+    }
+
+    #intro-bid{
+        padding-top: 2%;
+    }
+
+    .buttons{
+        width: 62%;
+        padding-top: 115%;
+    }
+
+    .btn-view{
+        width:45.2%;
+    }
+
+    .box{
+        width: 54.8%;
+    }
+
+    .mail,
+    .behance{
+    width: 5.2%;
+    margin-right: 5.5%; 
+    }
+
+    .tabs{
+        padding-right: 22%;
+        margin-top: 22%;
+    }
+
+    .deco{
+        left: 12%;
+        top: 8%;
+    }
+
+    .deco-branch{
+        margin-bottom: 8%;
+        margin-right: 9%;
+        width: 18%;
+        height: auto;
+    }
+    .deco-leave{
+        width: 35%;
+    }
+}
+
+
+@media (max-width: 400px){
+    
+    html{
+        font-size: 6px;
+    }
+
+    .left{
+        width: 50%;
+        background-position: left;
+    }
+
+    #left-bid{
+        background-position: bottom right;
+    }
+
+    .right{
+        width: 50%;
+    }
+
+    .logo{
+        float: right;
+        padding-right: 4rem;
+        padding-top: 4rem;
+        width: 40%;
+    }
+
+    .cards{
+        margin-top: 23%;
+        height: 68%;
+        width: 85%;
+    }
+
+    .intro-box{
+        /* top:0; */
+        height: 48%;
+        width: 60%;
+    }
+
+    .project-intro{
+        /* left: 0; */
+        width: 85%;
+    }
+
+    .buttons{
+        width: 72%;
+        padding-top: 155%;
+    }
+
+    .btn-view{
+        width:52.7%;
+    }
+
+    .box{
+        width: 47.3%;
+        border: white 2px solid;
+        border-left: none;
+    }
+
+    .btn-work-text{
+        display: none;
+    }
+
+    .mail,
+    .behance{
+    width: 10.2%;
+    margin-right: 11.5%; 
+    }
+
+    
+    .tabs{
+        padding-right: 30%;
+        margin-top: 30%;
+    }
+
+    .active, .tab3:hover {
+        background-size: 30%;
+        background-position: 55% 40%;      
+    }
+
+    .active, .tab1:hover{
+        background-size: 22%;
+        background-position: 58% 40%;
+    }
+
+    .active, .tab2:hover{
+        background-size: 18%;
+        background-position: 60% 40%;
+    }
+
+    .active, .tab4:hover{
+        background-size: 13%;
+        background-position: 63% 40%;
+    }
+
+    .deco{
+        left: 10%;
+        top: 4%;
+    }
+
+    .deco-branch{
+        margin-bottom: 18%;
+        margin-right: 11%;
+        width: 18%;
+        height: auto;
+    }
+    .deco-leave{
+        width: 48%;
+    }
+
+    
+    #intro-cde{
+        padding-top: 1.5%;
+    }
+
+    #intro-p-cde{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #intro-vina{
+        padding-top: 2%;
+    }
+
+    #intro-bid{
+        padding-top: 1.8%;
+    }
+    
+    #intro-p-bid{
+        padding-left: 7%;
+        padding-right: 7%; 
+    }
+}
+
+
+@media (max-width: 420px){
+    
+    html{
+        font-size: 6px;
+    }
+
+    .left{
+        width: 50%;
+        background-position: left;
+    }
+
+    #left-bid{
+        background-position: bottom right;
+    }
+
+    .right{
+        width: 50%;
+    }
+
+    .logo{
+        float: right;
+        padding-right: 4rem;
+        padding-top: 4rem;
+        width: 40%;
+    }
+
+    .cards{
+        margin-top: 23%;
+        height: 68%;
+        width: 85%;
+    }
+
+    .intro-box{
+        /* top:0; */
+        height: 48%;
+        width: 60%;
+    }
+
+    .project-intro{
+        /* left: 0; */
+        width: 85%;
+    }
+
+    .buttons{
+        width: 72%;
+        padding-top: 155%;
+    }
+
+    .btn-view{
+        width:52.7%;
+    }
+
+    .box{
+        width: 47.3%;
+        border: white 2px solid;
+        border-left: none;
+    }
+
+    .btn-work-text{
+        display: none;
+    }
+
+    .mail,
+    .behance{
+    width: 10.2%;
+    margin-right: 11.5%; 
+    }
+
+    
+    .tabs{
+        padding-right: 30%;
+        margin-top: 30%;
+    }
+
+    .active, .tab3:hover {
+        background-size: 30%;
+        background-position: 55% 40%;      
+    }
+
+    .active, .tab1:hover{
+        background-size: 22%;
+        background-position: 58% 40%;
+    }
+
+    .active, .tab2:hover{
+        background-size: 18%;
+        background-position: 60% 40%;
+    }
+
+    .active, .tab4:hover{
+        background-size: 13%;
+        background-position: 63% 40%;
+    }
+
+    .deco{
+        left: 10%;
+        top: 4%;
+    }
+
+    .deco-branch{
+        margin-bottom: 18%;
+        margin-right: 11%;
+        width: 18%;
+        height: auto;
+    }
+    .deco-leave{
+        width: 48%;
+    }
+
+    
+    #intro-cde{
+        padding-top: 1.5%;
+    }
+
+    #intro-p-cde{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    #intro-vina{
+        padding-top: 2%;
+    }
+
+    #intro-bid{
+        padding-top: 1.8%;
+    }
+    
+    #intro-p-bid{
+        padding-left: 7%;
+        padding-right: 7%; 
+    }
+}
+/* @media (min-height: 800px){
+    html{
+        font-size: 7.5px;
+    }
+} */
