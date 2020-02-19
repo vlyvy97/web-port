@@ -5,14 +5,14 @@ on: [push]
 jobs:
   build:
     name: Deploy to staging
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
 
     steps:
     - uses: actions/checkout@v2
     - name: Update image
       run: | 
         sudo apt-get update &&
-        sudo apt-get -qq install git git-ftp
+        sudo apt -qq install git git-ftp
     - name: install git and stuff
       run: git ftp -v
         
