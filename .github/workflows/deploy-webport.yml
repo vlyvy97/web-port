@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+    name: Deploy to staging
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Update image
+      run: | 
+        apt-get update &&
+        apt-get -qq install git git-ftp
+        git ftp push --user brody --passwd 
+    - name: install git and stuff
+      run: apt-get -qq install git git-ftp
+        
