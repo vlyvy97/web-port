@@ -15,5 +15,5 @@ jobs:
         sudo apt -qq install git git-ftp
     - name: install git and stuff
       run: |
-        git ftp catchup --user ${{ secrets.USER }} --passwd ${{ secrets.PASSWORD }} ftp://178.128.108.88/web-port
+        git ftp push --user ${{ secrets.USER }} --passwd ${{ secrets.PASSWORD }} ftp://178.128.108.88/web-port
         
